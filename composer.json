@@ -1,14 +1,14 @@
 {
-    "name": "marmotte/brick-template",
-    "description": "Brick template",
+    "name": "marmotte/obrelma",
+    "description": "Marmotte ORM",
     "type": "marmotte-brick",
     "keywords": [
         "marmotte",
-        "template",
+        "orm",
         "brick"
     ],
-    "homepage": "https://github.com/Marmotte-framework/Brick-template",
-    "license": "UNLICENSE",
+    "homepage": "https://github.com/Marmotte-framework/ObRelMa",
+    "license": "MIT",
     "authors": [
         {
             "name": "Kevin Traini",
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Marmotte\\BrickName\\": "src/"
+            "Marmotte\\ObRelMa\\": "src/"
         },
         "exclude-from-classmap": [
             "tests/"
@@ -39,7 +39,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Marmotte\\BrickName\\": "tests/"
+            "Marmotte\\ObRelMa\\": "tests/"
         }
     },
     "scripts": {

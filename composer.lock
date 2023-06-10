@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b9c04a8fd39a9697f71194b23a06f74",
+    "content-hash": "7ec94e1f9fbd42f55f15a5600520e1dd",
     "packages": [
         {
             "name": "composer/class-map-generator",
@@ -152,16 +152,16 @@
         },
         {
             "name": "marmotte/brick",
-            "version": "v1.2.3",
+            "version": "v1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Marmotte-framework/Brick.git",
-                "reference": "767bf5f8444494a62f3b6d074fab99a21ccce009"
+                "reference": "45754c9004bd07e87cff10733a9f286e6a6aaa2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Marmotte-framework/Brick/zipball/767bf5f8444494a62f3b6d074fab99a21ccce009",
-                "reference": "767bf5f8444494a62f3b6d074fab99a21ccce009",
+                "url": "https://api.github.com/repos/Marmotte-framework/Brick/zipball/45754c9004bd07e87cff10733a9f286e6a6aaa2e",
+                "reference": "45754c9004bd07e87cff10733a9f286e6a6aaa2e",
                 "shasum": ""
             },
             "require": {
@@ -201,7 +201,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Marmotte-framework/Brick/issues",
-                "source": "https://github.com/Marmotte-framework/Brick/tree/v1.2.3"
+                "source": "https://github.com/Marmotte-framework/Brick/tree/v1.2.7"
             },
             "funding": [
                 {
@@ -209,7 +209,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-04-30T12:39:42+00:00"
+            "time": "2023-05-28T12:30:59+00:00"
         },
         {
             "name": "symfony/finder",
