@@ -29,6 +29,9 @@ namespace Marmotte\ObRelMa\ORM;
 
 use Attribute;
 
+/**
+ * Tell that property is a column
+ */
 #[Attribute(Attribute::TARGET_PROPERTY)]
 final class Column
 {

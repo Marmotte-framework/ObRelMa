@@ -29,6 +29,9 @@ namespace Marmotte\ObRelMa\ORM;
 
 use Attribute;
 
+/**
+ * Add an index in table
+ */
 #[Attribute(Attribute::TARGET_CLASS | Attribute::IS_REPEATABLE)]
 final class Index
 {

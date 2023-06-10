@@ -29,6 +29,9 @@ namespace Marmotte\ObRelMa\ORM;
 
 use Attribute;
 
+/**
+ * Specify primary key of table
+ */
 #[Attribute(Attribute::TARGET_CLASS | Attribute::TARGET_PROPERTY)]
 final class PrimaryKey
 {

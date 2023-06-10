@@ -29,6 +29,9 @@ namespace Marmotte\ObRelMa\ORM;
 
 use Attribute;
 
+/**
+ * Tell that class is an entity, a database table
+ */
 #[Attribute(Attribute::TARGET_CLASS)]
 final class Entity
 {

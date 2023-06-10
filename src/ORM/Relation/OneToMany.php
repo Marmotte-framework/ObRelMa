@@ -29,6 +29,9 @@ namespace Marmotte\ObRelMa\ORM\Relation;
 
 use Attribute;
 
+/**
+ * Create a one-to-many relation between two tables
+ */
 #[Attribute(Attribute::TARGET_PROPERTY)]
 final class OneToMany
 {
